@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Unity Series"
+date:   2017-02-04 16:10:43 -0600
+tag: Unity
+author: Reynardo Perez
+description: Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content.
+post_preview: assets/img/pic_1.png
+---
