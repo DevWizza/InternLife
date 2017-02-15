@@ -3,24 +3,24 @@ layout: default
 ---
     <section class="articles">
         <div class="wrapper">
+            {% for post in site.posts %}
             <div class="article">
                 <span class="article__image">
-						<img src="assets/img/pic_1.png" alt="">
+						<img src="{{post.post_preview}}" alt="{{post.title}}">
 					</span>
 
                 <div class="article__content">
                     <h3 class="article__title">
-                        <span>Title</a>
-    </h3>
-    <span class="article__author">Author</span>
-
+                        <span>{{post.title}}</a>
+                    </h3>
+                        <span class="article__author">{{post.author}}</span>
                         <div class="article__data">
-                            <span class="badge badge--secondary">Tag</span>
-                            <span class="article__date">Date</span>
+                            <span class="badge badge--secondary">{{post.tag}}</span>
+                            <span class="article__date">{{post.date | date: "%b.%d.%y"}}</span>
                         </div>
-                        <p>Description</p>
+                        <p>{{post.description}}</p>
                 </div>
             </div>
-
+            {% endfor %}
         </div>
     </section>
