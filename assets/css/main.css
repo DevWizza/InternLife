@@ -69,7 +69,7 @@ body {
   min-height: 500px;
   font-family: "Roboto", Arial, sans-serif;
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.6;
   color: #4F4D50;
   background-color: #eee;
 }
@@ -88,7 +88,7 @@ h3 {
   margin-top: 0;
   margin-bottom: 40px;
   font-family: "Roboto", Arial, sans-serif;
-  line-height: 1.3;
+  line-height: 1.32;
 }
 
 h1 {
@@ -168,32 +168,91 @@ p {
 
 .menu__link {
   position: relative;
-  margin-left: 14px;
   display: inline-block;
-  color: #9B9B9B;
-  text-decoration: none;
+  transition: all 0.3s;
   font-weight: 700;
+  text-decoration: none;
+  color: #9B9B9B;
   cursor: pointer;
 }
 
-.menu__link::after {
+.menu__link:hover, .menu__link.menu__link--active {
+  color: #62AFE2;
+}
+
+.menu-trigger {
+  z-index: 18;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  width: 26px;
+  height: 100%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.menu-trigger em {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 0.3s;
+  display: inline-block;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 2px;
+  background-color: #9B9B9B;
+}
+
+.menu-trigger em::before, .menu-trigger em::after {
   content: " ";
   position: absolute;
-  top: 105%;
   left: 0;
-  transition: width 0.3s;
-  display: block;
-  width: 0;
-  height: 2px;
-  background-color: #62AFE2;
-}
-
-.menu__link:hover, .menu__link.menu__link--active {
-  color: #9B9B9B;
-}
-
-.menu__link:hover::after, .menu__link.menu__link--active::after {
+  transition: all 0.3s;
+  display: inline-block;
   width: 100%;
+  height: 100%;
+  background-color: #9B9B9B;
+}
+
+.menu-trigger em::before {
+  bottom: 8px;
+  -webkit-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+}
+
+.menu-trigger em::after {
+  top: 8px;
+  -webkit-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+}
+
+.menu-trigger.menu-trigger--open em {
+  background-color: transparent;
+}
+
+.menu-trigger.menu-trigger--open em::before {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.menu-trigger.menu-trigger--open em::after {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+@media (min-width: 480px) {
+  .menu__link {
+    margin-left: 22px;
+  }
+  .menu-trigger {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -208,8 +267,28 @@ p {
     display: inline-block;
     width: 162px;
   }
+}
+
+@media (max-width: 479px) {
+  .menu {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    transition: all 0.3s;
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+  }
+  .menu.menu--open {
+    opacity: 1;
+    visibility: visible;
+  }
   .menu__link {
-    margin-left: 22px;
+    display: block;
+    border-top: 2px dotted #eee;
+    padding: 16px 22px;
   }
 }
 
@@ -262,13 +341,12 @@ p {
 
 .badge {
   display: inline-block;
-  min-width: 150px;
-  min-height: 40px;
   border-radius: 5px;
-  padding: 8px 20px;
-  font-size: 16px;
+  padding: 4px 8px;
+  font-size: 12px;
   font-weight: 700;
   text-align: center;
+  line-height: 1.3;
   color: #fff;
   background-color: #4F4D50;
 }
@@ -682,30 +760,34 @@ p {
 }
 
 .article__author {
+  display: inline-block;
   opacity: 0.7;
   font-weight: 700;
 }
 
-.article__data {
-  margin-top: 16px;
+.article__date {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #9B9B9B;
+}
+
+.article__date::before {
+  content: "|";
+  display: inline-block;
+  opacity: 0.5;
+  margin-right: 10px;
+}
+
+.article__badges {
+  margin-top: 14px;
   margin-bottom: 22px;
 }
 
-.article__data .badge {
-  margin-right: 12px;
-}
-
-.article__data .badge--primary + .article__date {
-  color: #62AFE2;
-}
-
-.article__data .badge--secondary + .article__date {
-  color: #27AE60;
-}
-
-.article__data .article__date {
-  font-size: 16px;
-  font-weight: 700;
+.article__badges .badge {
+  margin-right: 4px;
+  margin-bottom: 4px;
 }
 
 @media (min-width: 996px) {
