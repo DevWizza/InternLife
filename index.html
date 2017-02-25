@@ -8,7 +8,7 @@ layout: bright-header-default
         <div class="article">
             
             <span class="article__image">
-						<img src="{{ site.github.url }}/{{post.post_preview}}" alt="{{post.title}}">
+						<img src="{{ site.github.url | replace: 'http://', '//' }}/{{post.post_preview}}" alt="{{post.title}}">
 					</span>
 
             <div class="article__content">
