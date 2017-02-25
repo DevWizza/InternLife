@@ -1,0 +1,48 @@
+// Breakpoint
+
+@mixin media($break, $point) {
+	@mixin mediaSize($x, $y, $z) {
+		@if ($break == $x) and ($point == $y) {
+			@media (#{$break}-width: $z) {
+				@content;
+			}
+		}
+	}
+
+	@if ($break == min) {
+		@include mediaSize(min, xs, $screen-xs);
+		@include mediaSize(min, sm, $screen-sm);
+		@include mediaSize(min, md, $screen-md);
+		@include mediaSize(min, lg, $screen-lg);
+
+	} @else if ($break == max) {
+
+		@include mediaSize(max, xs, ($screen-xs - 1px));
+		@include mediaSize(max, sm, ($screen-sm - 1px));
+		@include mediaSize(max, md, ($screen-md - 1px));
+		@include mediaSize(max, lg, ($screen-lg - 1px));
+	}
+}
+
+
+// Grid System
+
+@mixin grid-cell-size($point) {
+	@for $i from 1 through 12 {
+		$width: ((100% / 12) * $i);
+
+		.grid__cell--#{$point}-#{$i} {
+			width: $width;
+		}
+	}
+}
+
+@mixin grid-cell-half($point) {
+	@for $i from 1 through 11 {
+		$half: ((100% / 12) * $i);
+
+		.grid__cell--#{$point}-half-#{$i} {
+			margin-left: $half;
+		}
+	}
+}

@@ -1,0 +1,16 @@
+// -----------------------------
+// Wrapper
+// -----------------------------
+
+.wrapper {
+	padding-left: 6%;
+	padding-right: 6%;
+
+	@include media(min, md) {
+		padding-left: calc(6% + 162px);
+
+		&.wapper--full {
+			padding-left: 6%;
+		}
+	}
+}

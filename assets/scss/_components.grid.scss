@@ -1,0 +1,51 @@
+// -----------------------------
+// Grid System
+// -----------------------------
+
+.grid {
+   display: flex;
+   flex-flow: row wrap;
+	margin-top: -1em;
+	margin-left: -1em;
+   > .grid__cell {
+		padding-top: 1em;
+      padding-left: 1em;
+   }
+}
+
+.grid__cell {
+   width: 100%;
+}
+
+.grid--no-gutter {
+   margin-top: 0;
+	margin-left: 0;
+   > .grid__cell {
+      padding-top: 0;
+      padding-left: 0;		
+   }
+}
+
+// Extra Small Screen
+@include media(min, xs) {
+   @include grid-cell-size(xs);
+	@include grid-cell-half(xs);
+}
+
+// Small Screen
+@include media(min, sm) {
+   @include grid-cell-size(sm);
+	@include grid-cell-half(sm);
+}
+
+// Medium Screen
+@include media(min, md) {
+   @include grid-cell-size(md);
+	@include grid-cell-half(md);
+}
+
+// Large Screen
+@include media(min, lg) {
+   @include grid-cell-size(lg);
+	@include grid-cell-half(lg);
+}

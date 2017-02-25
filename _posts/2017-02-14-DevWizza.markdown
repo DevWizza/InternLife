@@ -1,0 +1,75 @@
+---
+layout: dark-header-default
+title:  "6 Tips For Better Work-Life Balance as a tech savvy"
+date:   2017-02-04 16:10:43 -0600
+tag: work-life-balance
+author: DevWizza Team
+description: These days, work-life balance can seem like an impossible feat. Technology makes workers accessible around the clock. Fears of job loss incentivize longer hours.
+post_preview: /assets/img/2017-02-14/pic_1.jpg
+---
+
+<div class="post">
+    <header class="post__header" data-post-bg-mobile="{{ site.github.url }}/assets/img/2017-02-14/pic_post-mobile.jpg" data-post-bg-desktop="{{ site.github.url }}/assets/img/2017-02-14/pic_post-desktop.jpg">
+
+        <div class="wrapper wapper--full">
+            <span class="post__author">{{page.author}}</span>
+            <span class="post__date">{{page.date | date_to_long_string}}</span>
+
+            <h1 class="post__title">{{page.title}}</h1>
+            <div class="post__badges">
+                <span class="badge badge--primary badge--big">{{page.tag}}</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="post__content">
+
+    <p>
+        
+        A lot of overachievers develop perfectionist tendencies at a young age when demands on their time are limited to school, hobbies and maybe an after-school job. It’s easier to maintain that perfectionist habit as a kid, but as you grow up, life gets more complicated. As you climb the ladder at work and as your family grows, your responsibilities mushroom. Perfectionism becomes out of reach, and if that habit is left unchecked, it can become destructive, says executive coach Marilyn Puder-York, PhD, who wrote <a href="#"> The Office Survival Guide.</a>
+        
+        </p>
+
+    <img src="{{ site.github.url }}/assets/img/2017-02-14/fig_0001.jpg" alt="">
+
+
+    <p>
+        The key to avoid burning out is to let go of perfectionism, says Puder-York. “As life gets more expanded it’s very hard, both neurologically and psychologically, to keep that habit of perfection going,” she says, adding that the healthier option is to strive not for perfection, but for excellence.
+    </p>
+
+    <h2>Unplug</h2>
+
+    <p>
+        From telecommuting to programs that make work easier, technology has helped our lives in many ways. But it has also created expectations of constant accessibility. The work day never seems to end. “There are times when you should just shut your phone off and enjoy the moment,” says Robert Brooks.
+    </p>
+        
+    </div>
+</div>
+
+<div class="author-info">
+    <img class="author-info__avatar" src="https://avatars1.githubusercontent.com/u/25558878" alt="">
+    <div class="author-info__content">
+        <h3 class="author-info__name">{{page.author}}</h3>
+        <p>Love the vibe? Follow Us on Facebook, Twitter, & Instagram. Stay up to date on the latest articles.</p>
+
+        <div class="author-info__social">
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="related-articles">
+    <div class="related-articles__prev" data-bg-image="{{ site.github.url }}/assets/img/2017-02-14/pic_1.jpg">
+        <div class="related-articles__date">April. 20. 2014</div>
+        <h3 class="related-articles__title">Lorem ipsum is a pseudo-Latin text scratch</h3>
+        <div class="related-articles__author">Eliezer Pujols</div>
+    </div>
+
+    <div class="related-articles__next" data-bg-image="{{ site.github.url }}/assets/img/2017-02-14/pic_2.jpg">
+        <div class="related-articles__date">April. 24. 2017</div>
+        <h3 class="related-articles__title">Lorem ipsum is a ipsum is</h3>
+        <div class="related-articles__author">Reynardo Perez</div>
+    </div>
+</div>

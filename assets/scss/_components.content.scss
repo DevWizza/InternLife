@@ -1,0 +1,16 @@
+// -----------------------------
+// Content
+// -----------------------------
+
+.content {
+	flex: 1 0 auto;
+	padding-top: 60px;
+
+	@include media(min, sm) {
+		padding-top: 100px;
+
+		&.content--no-padding {
+			padding-top: 0;
+		}
+	}
+}

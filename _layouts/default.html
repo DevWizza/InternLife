@@ -7,64 +7,49 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Interns Life</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico">
-    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-192.png">
-    <link rel="icon" type="image/png" sizes="160x160" href="/favicon-160.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-    <link rel="apple-touch-icon" href="/favicon-57.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/favicon-114.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/favicon-72.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/favicon-144.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/favicon-60.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/favicon-76.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/favicon-152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+    <link rel="shortcut icon" href="{{ site.github.url }}/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="{{ site.github.url }}/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="{{ site.github.url }}/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="160x160" href="{{ site.github.url }}/favicon-160.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ site.github.url }}/favicon-96.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="{{ site.github.url }}/favicon-64.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.github.url }}/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.github.url }}/favicon-16.png">
+    <link rel="apple-touch-icon" href="{{ site.github.url }}/favicon-57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.github.url }}/favicon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.github.url }}/favicon-72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.github.url }}/favicon-144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ site.github.url }}/favicon-60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/{{ site.github.url }}favicon-120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ site.github.url }}/favicon-76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ site.github.url }}/favicon-152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.github.url }}/favicon-180.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="/favicon-144.png">
-    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="msapplication-TileImage" content="{{ site.github.url }}/favicon-144.png">
+    <meta name="msapplication-config" content="{{ site.github.url }}/browserconfig.xml">
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/font-awesome.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="header">
-        <span class="logo">
-			<img class="logo__image" src="assets/img/logo-interns.svg" alt="Logo Interns">
-		</span>
-
-        <!-- Menu -->
-        <nav class="menu">
-            <span class="menu__link">View all archives</span>
-            <span class="menu__link">About Us</span>
-        </nav>
-
-        <span class="menu-trigger"><em></em></span>
-    </header>
-    <main class="content">
-        {{content}}
-    </main>
+    
+    {{content}}
 
     <!-- Footer -->
     <footer class="footer">
-        <a class="logo" href="#0">
-            <img class="logo__image" src="assets/img/logo-dw.svg" alt="Logo DevWizza">
+        <a class="logo" href="https://github.com/DevWizza">
+            <img class="logo__image" src="{{ site.github.url }}/assets/img/logo-dw.svg" alt="Logo DevWizza">
         </a>
         <p class="footer__slogan">Made by Nerds for Nerds</p>
     </footer>
 
     <!-- JS -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="{{ site.github.url }}/assets/js/jquery.min.js"></script>
+    <script src="{{ site.github.url }}/assets/js/main.js"></script>
 </body>
 
 </html>
