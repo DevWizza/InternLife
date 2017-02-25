@@ -9,7 +9,7 @@ post_preview: "assets/img/2017-02-14/pic_1.jpg"
 ---
 
 <div class="post">
-    <header class="post__header" data-post-bg-mobile="{{ site.github.url }}/assets/img/2017-02-14/pic_post-mobile.jpg" data-post-bg-desktop="{{ site.github.url }}/assets/img/2017-02-14/pic_post-desktop.jpg">
+    <header class="post__header" data-post-bg-mobile="{{ site.github.url | replace: 'http://', '//'}}/assets/img/2017-02-14/pic_post-mobile.jpg" data-post-bg-desktop="{{ site.github.url | replace: 'http://', '//'}}/assets/img/2017-02-14/pic_post-desktop.jpg">
 
         <div class="wrapper wapper--full">
             <span class="post__author">{{page.author}}</span>
@@ -30,7 +30,7 @@ post_preview: "assets/img/2017-02-14/pic_1.jpg"
         
         </p>
 
-    <img src="{{ site.github.url }}/assets/img/2017-02-14/fig_0001.jpg" alt="">
+    <img src="{{ site.github.url | replace: 'http://', '//'}}/assets/img/2017-02-14/fig_0001.jpg" alt="">
 
 
     <p>
@@ -61,13 +61,13 @@ post_preview: "assets/img/2017-02-14/pic_1.jpg"
 </div>
 
 <div class="related-articles">
-    <div class="related-articles__prev" data-bg-image="{{ site.github.url }}/assets/img/2017-02-14/pic_1.jpg">
+    <div class="related-articles__prev" data-bg-image="{{ site.github.url | replace: 'http://', '//'}}/assets/img/2017-02-14/pic_1.jpg">
         <div class="related-articles__date">April. 20. 2014</div>
         <h3 class="related-articles__title">Lorem ipsum is a pseudo-Latin text scratch</h3>
         <div class="related-articles__author">Eliezer Pujols</div>
     </div>
 
-    <div class="related-articles__next" data-bg-image="{{ site.github.url }}/assets/img/2017-02-14/pic_2.jpg">
+    <div class="related-articles__next" data-bg-image="{{ site.github.url | replace: 'http://', '//'}}/assets/img/2017-02-14/pic_2.jpg">
         <div class="related-articles__date">April. 24. 2017</div>
         <h3 class="related-articles__title">Lorem ipsum is a ipsum is</h3>
         <div class="related-articles__author">Reynardo Perez</div>
