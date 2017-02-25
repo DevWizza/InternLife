@@ -1,0 +1,34 @@
+// Heading
+
+h1,
+h2,
+h3 {
+	margin-top: 0;
+	margin-bottom: 40px;
+	font-family: $font-family-primary;
+	line-height: ($line-height - 0.3);
+}
+
+h1 {
+	font-size: 56px;
+
+	@include media(min, sm) {
+		font-size: 70px;
+	}
+}
+
+h2 {
+	font-size: 36px;
+
+	@include media(min, sm) {
+		font-size: 48px;
+	}
+}
+
+h3 {
+	font-size: 30px;
+
+	@include media(min, sm) {
+		font-size: 36px;
+	}
+}

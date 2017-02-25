@@ -1,0 +1,134 @@
+// -----------------------------
+// Articles
+// -----------------------------
+
+$articles-padding-top: 72px;
+$articles-padding-bottom: 152px;
+
+// Articles Section
+.articles {
+	padding-top: ($articles-padding-top - 22px);
+	padding-bottom: ($articles-padding-bottom - 54px);
+
+	@include media(min, sm) {
+		padding-top: $articles-padding-top;
+		padding-bottom: $articles-padding-bottom;
+	}
+}
+
+// Articles Items
+.article {
+	max-width: 618px;
+	border-bottom: 2px solid $color-border;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 52px;
+	padding-bottom: 52px;
+	&:first-child {
+		padding-top: 0;
+	}
+
+	&:last-child {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+
+	&__image {
+		display: block;
+		width: 100%;
+		border-radius: 4px;
+		cursor: pointer;
+		img {
+			display: block;
+			width: 100%;
+		}
+	}
+
+	&__content {
+		p {
+			font-size: 16px;
+		}
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&__title {
+		margin-top: 26px;
+		margin-bottom: 16px;
+		font-size: 26px;
+		font-weight: 700;
+		cursor: pointer;
+		a {
+			transition: color 0.3s;
+			text-decoration: none;
+			color: $color-gray-dark;
+			&:hover {
+				color: $color-primary;
+			}
+		}
+	}
+
+	&__author {
+		display: inline-block;
+		opacity: 0.7;
+		font-weight: 700;
+	}
+
+	&__date {
+		display: inline-block;
+		margin-left: 10px;
+		font-size: 16px;
+		font-weight: 700;
+		color:  $color-gray;
+		&::before {
+			content: "|";
+			display: inline-block;
+			opacity: 0.5;
+			margin-right: 10px;
+		}
+	}
+
+	&__badges {
+		margin-top: 14px;
+		margin-bottom: 22px;
+		.badge {
+			margin-right: 4px;
+			margin-bottom: 4px;
+		}
+	}
+}
+
+@include media(min, md) {
+	.article {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row-reverse;
+		align-items: flex-start;
+		max-width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+
+		&__image,
+		&__content {
+			width: calc(50% - 26px);
+		}
+
+		&__image {
+			margin-left: 26px;
+		}
+
+		&__content {
+			margin-right: 26px;
+			p {
+				font-size: 18px;
+			}
+		}
+
+		&__title {
+			margin-top: 0;
+			font-size: 32px;
+		}
+	}
+}
