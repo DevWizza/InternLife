@@ -5,7 +5,7 @@ date:   2017-02-04 16:10:43 -0600
 tag: work-life-balance
 author: DevWizza Team
 description: These days, work-life balance can seem like an impossible feat. Technology makes workers accessible around the clock. Fears of job loss incentivize longer hours.
-post_preview: /assets/img/2017-02-14/pic_1.jpg
+post_preview: "assets/img/2017-02-14/pic_1.jpg"
 ---
 
 <div class="post">
