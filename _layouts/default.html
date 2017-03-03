@@ -36,7 +36,7 @@
 </head>
 
 <body>
-    
+
     {{content}}
 
     <!-- Footer -->
@@ -48,6 +48,7 @@
     </footer>
 
     <!-- JS -->
+    <script src="{{ site.github.url | replace: 'http://', '//' }}/assets/js/sharer.min.js"></script>
     <script src="{{ site.github.url | replace: 'http://', '//' }}/assets/js/jquery.min.js"></script>
     <script src="{{ site.github.url | replace: 'http://', '//' }}/assets/js/main.js"></script>
 </body>

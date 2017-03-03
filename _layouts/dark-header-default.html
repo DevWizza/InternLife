@@ -20,3 +20,36 @@ layout: default
 <main class="content content--no-padding">
 {{content}}
 </main>
+
+<span class="share-button">
+		<button
+			class="share-button__link sharer"
+			data-sharer="twitter"
+			data-title="How to do design a Xamarin Forms app from scratch"
+			data-url="{{site.github.url}}{{page.url}}">
+			<i class="fa fa-twitter"></i>
+		</button>
+
+		<button
+			class="share-button__link sharer"
+			data-sharer="facebook"
+			data-url="{{site.github.url}}{{page.url}}">
+			<i class="fa fa-facebook"></i>
+		</button>
+
+		<button
+			class="share-button__link sharer"
+			data-sharer="googleplus"
+			data-url="{{site.github.url}}{{page.url}}">
+			<i class="fa fa-google-plus"></i>
+		</button>
+
+		<button
+			class="share-button__link sharer"
+			data-sharer="linkedin"
+			data-url="{{site.github.url}}{{page.url}}">
+			<i class="fa fa-linkedin"></i>
+		</button>
+
+		<span class="share-button__trigger"></span>
+	</span>
