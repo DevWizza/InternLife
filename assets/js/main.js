@@ -3,11 +3,15 @@ $(document).ready(function () {
 	var mainHeader = $(".header");
 	var offset = 200;
 	var isOpen = false
+	var afterScroll = false
 
 	// Trigger Menu
 	$('.menu-trigger').click(function () {
 		$(this).toggleClass('menu-trigger--open');
 		$('.menu').toggleClass('menu--open');
+
+		if (afterScroll)
+			return;
 
 		if (isOpen)
 			setTransparentHeader()
@@ -38,10 +42,14 @@ $(document).ready(function () {
 	}
 
 	function headerTransparent() {
-		if ($(window).scrollTop() > offset && mainHeader.hasClass('header--transparent'))
+		if ($(window).scrollTop() > offset && mainHeader.hasClass('header--transparent')) {
 			setNonTransparentHeader()
-		else if ($(window).scrollTop() <= offset && mainHeader.hasClass('header--with-colors'))
+			afterScroll = true
+		}
+		else if ($(window).scrollTop() <= offset && mainHeader.hasClass('header--with-colors')) {
 			setTransparentHeader()
+			afterScroll = false
+		}
 	}
 
 
