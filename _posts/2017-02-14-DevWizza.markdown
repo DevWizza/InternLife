@@ -69,7 +69,7 @@ post_preview: "assets/img/2017-02-14/pic_1.jpg"
 
     <div class="related-articles__next" data-bg-image="{{ site.github.url | replace: 'http://', '//'}}/assets/img/2017-02-14/pic_2.jpg">
         <div class="related-articles__date">April. 24. 2017</div>
-        <h3 class="related-articles__title">Lorem ipsum is a ipsum is</h3>
+        <h3 class="related-articles__title">Lorem ipsum is a pseudo-Latin text scratch</h3>
         <div class="related-articles__author">Reynardo Perez</div>
     </div>
 </div>
