@@ -10,6 +10,10 @@ $(document).ready(function () {
 		$(this).toggleClass('menu-trigger--open');
 		$('.menu').toggleClass('menu--open');
 
+		var url = $(location).attr('href');
+		if (url.endsWith("/"))
+			return;
+
 		if (afterScroll)
 			return;
 
