@@ -18,7 +18,10 @@ layout: bright-header-default
                     <span class="article__date">{{post.date | date_to_long_string}}</span>
 
                     <div class="article__badges">
-                        <span class="badge badge--primary">{{post.tag}}</span>
+
+                        {% for tag in post.tags%}
+                            <span class="badge badge--primary">{{tag.name}}</span>
+                        {% endfor %}
                     </div>
 
                     <div class="article__resumen">
