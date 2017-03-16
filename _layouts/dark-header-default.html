@@ -1,24 +1,63 @@
 ---
 layout: default
 ---
-
 <!-- Header -->
 <header class="header header--transparent">
-    <span class="logo">
+	<span class="logo">
 			<a href="{{site.github.url}}/"><img class="logo__image" src="{{ site.github.url | replace: 'http://', '//' }}/assets/img/logo-interns.svg" alt="Logo Interns"></a>
 		</span>
 
-    <!-- Menu -->
-    <nav class="menu">
-        <span class="menu__link">View all archives</span>
-        <span class="menu__link">About Us</span>
-    </nav>
+	<!-- Menu -->
+	<nav class="menu">
+		<span class="menu__link">View all archives</span>
+		<span class="menu__link">About Us</span>
+	</nav>
 
-    <span class="menu-trigger"><em></em></span>
+	<span class="menu-trigger"><em></em></span>
 </header>
 
 <main class="content content--no-padding">
-{{content}}
+	{{content}}
+	<div class="author-info">
+		<img class="author-info__avatar" src="https://avatars1.githubusercontent.com/u/25558878" alt="">
+		<div class="author-info__content">
+			<h3 class="author-info__name">{{page.author}}</h3>
+			<p>Love the vibe? Follow Us on Facebook, Twitter, & Instagram. Stay up to date on the latest articles.</p>
+
+			<div class="author-info__social">
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+			</div>
+		</div>
+	</div>
+
+	{% if page.previous.url or page.next.url %}
+
+	<div class="related-articles">
+
+		{% if page.previous.url %}
+
+		<div class="related-articles__prev" data-bg-image="{{ site.github.url | replace: 'http://', '//'}}/assets/img/2017-02-14/pic_1.jpg">
+			<div class="related-articles__date">{{page.previous.date | date_to_long_string}}</div>
+			<h3 class="related-articles__title">{{page.previous.title}}</h3>
+			<div class="related-articles__author">{{page.previous.author}}</div>
+		</div>
+
+
+		{% endif %} {% if page.next.url %}
+
+		<div class="related-articles__prev" data-bg-image="{{ site.github.url | replace: 'http://', '//'}}/assets/img/2017-02-14/pic_1.jpg">
+			<div class="related-articles__date">{{page.previous.date | date_to_long_string}}</div>
+			<h3 class="related-articles__title">{{page.previous.title}}</h3>
+			<div class="related-articles__author">{{page.previous.author}}</div>
+		</div>
+
+		{% endif %}
+
+	</div>
+
+	{% endif %}
 </main>
 
 <span class="share-button">
@@ -52,4 +91,4 @@ layout: default
 		</button>
 
 		<span class="share-button__trigger"></span>
-	</span>
+</span>
