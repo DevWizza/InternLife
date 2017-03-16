@@ -45,31 +45,3 @@ tags:
         
     </div>
 </div>
-
-<div class="author-info">
-    <img class="author-info__avatar" src="https://avatars1.githubusercontent.com/u/25558878" alt="">
-    <div class="author-info__content">
-        <h3 class="author-info__name">{{page.author}}</h3>
-        <p>Love the vibe? Follow Us on Facebook, Twitter, & Instagram. Stay up to date on the latest articles.</p>
-
-        <div class="author-info__social">
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
-        </div>
-    </div>
-</div>
-
-<div class="related-articles">
-    <div class="related-articles__prev" data-bg-image="{{ site.github.url | replace: 'http://', '//'}}/assets/img/2017-02-14/pic_1.jpg">
-        <div class="related-articles__date">April. 20. 2014</div>
-        <h3 class="related-articles__title">Lorem ipsum is a pseudo-Latin text scratch</h3>
-        <div class="related-articles__author">Eliezer Pujols</div>
-    </div>
-
-    <div class="related-articles__next" data-bg-image="{{ site.github.url | replace: 'http://', '//'}}/assets/img/2017-02-14/pic_2.jpg">
-        <div class="related-articles__date">April. 24. 2017</div>
-        <h3 class="related-articles__title">Lorem ipsum is a pseudo-Latin text scratch</h3>
-        <div class="related-articles__author">Reynardo Perez</div>
-    </div>
-</div>
