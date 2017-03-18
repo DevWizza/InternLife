@@ -35,3 +35,12 @@ tags:
     expectations of constant accessibility. The work day never seems to end. “There are times when you should just shut your
     phone off and enjoy the moment,” says Robert Brooks.
 </p>
+
+<h2>Code Pen Preview</h2>
+
+<p data-height="265" data-theme-id="0" data-slug-hash="alzIx" data-default-tab="html" data-user="curthusting" data-embed-version="2" data-pen-title="Animated loading and login screen" class="codepen">See the Pen <a href="https://codepen.io/curthusting/pen/alzIx/">Animated loading and login screen</a> by Curt Husting (<a href="http://codepen.io/curthusting">@curthusting</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+<h2>Gist Preview</h2>
+
+<script src="https://gist.github.com/justarandomgeek/2c47b4aaee12f717227f867a4c030fae.js"></script>
