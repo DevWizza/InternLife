@@ -5,7 +5,7 @@ date:   2017-02-04 16:10:43 -0600
 author: DevWizza Team
 author_comment: Love the vibe? Follow Us on Facebook, Twitter, & Instagram. Stay up to date on the latest articles.
 description: These days, work-life balance can seem like an impossible feat. Technology makes workers accessible around the clock. Fears of job loss incentivize longer hours.
-post_preview: "assets/img/2017-02-14/pic_1.jpg"
+image: "assets/img/2017-02-14/pic_1.jpg"
 post_preview_desktop: "/assets/img/2017-02-14/pic_post-desktop.jpg"
 post_preview_mobile: "/assets/img/2017-02-14/pic_post-mobile.jpg"
 tags:
