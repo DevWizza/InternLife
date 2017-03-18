@@ -17,12 +17,33 @@ layout: default
 </header>
 
 <main class="content content--no-padding">
-	{{content}}
+	
+<header class="post__header" data-post-bg-mobile="{{ site.github.url | replace: 'http://', '//'}}{{page.post_preview_mobile}}"
+        data-post-bg-desktop="{{ site.github.url | replace: 'http://', '//'}}{{page.post_preview_desktop}}">
+
+        <div class="wrapper wapper--full">
+            <span class="post__author">{{page.author}}</span>
+            <span class="post__date">{{page.date | date_to_long_string}}</span>
+
+            <h1 class="post__title">{{page.title}}</h1>
+            <div class="post__badges">
+                {% for tag in page.tags%}
+                <span class="badge badge--primary badge--big">{{tag.name}}</span> {% endfor %}
+            </div>
+        </div>
+    </header>
+
+	<div class="post">
+
+    	<div class="post__content">
+        		{{content}}
+    		</div>
+		</div>
 	<div class="author-info">
 		<img class="author-info__avatar" src="https://avatars1.githubusercontent.com/u/25558878" alt="">
 		<div class="author-info__content">
 			<h3 class="author-info__name">{{page.author}}</h3>
-			<p>Love the vibe? Follow Us on Facebook, Twitter, & Instagram. Stay up to date on the latest articles.</p>
+			<p>{{page.author_comment}}</p>
 
 			<div class="author-info__social">
 				<a href="#"><i class="fa fa-twitter"></i></a>
