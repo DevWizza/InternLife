@@ -1,10 +1,9 @@
-<a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{post.url}}"></a>
 <div id="disqus_thread"></div>
 <script>
 
 var disqus_config = function () {
-this.page.url = "https://www.intern.life{{page.id}}";
-this.page.identifier = "{{page.url}}";
+this.page.url = "https://www.intern.life{{page.url}}";
+this.page.identifier = "{{page.id}}";
 };
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
