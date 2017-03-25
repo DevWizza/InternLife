@@ -1,60 +1,38 @@
-$(document).ready(function () {
-
+$(document).ready(function() {
+	// Varibles
 	var mainHeader = $(".header");
-	var offset = 200;
-	var isOpen = false
-	var afterScroll = false
+	var mainNav = $('.menu');
 
 	// Trigger Menu
-	$('.menu-trigger').click(function () {
+	$('.menu-trigger').click(function(){
 		$(this).toggleClass('menu-trigger--open');
-		$('.menu').toggleClass('menu--open');
-
-		var url = $(location).attr('href');
-		if (url.endsWith("/"))
-			return;
-
-		if (afterScroll)
-			return;
-
-		if (isOpen)
-			setTransparentHeader()
-		else
-			setNonTransparentHeader()
-
-		isOpen = !isOpen
+		mainHeader.toggleClass('header--open');
 	});
 
+
 	// Trigger Share Button
-	$(".share-button__trigger").click(function () {
+	$('.share-button__trigger').click(function(){
 		$('.share-button').toggleClass('share-button--open');
 	});
 
+
 	// Header will have its color in scroll
-	$(window).scroll(function () {
+	$(window).scroll(function(){
 		headerTransparent();
 	});
 
-	function setNonTransparentHeader() {
-		mainHeader.removeClass('header--transparent');
-		mainHeader.addClass('header--with-colors');
-	}
-
-	function setTransparentHeader() {
-		mainHeader.addClass('header--transparent');
-		mainHeader.removeClass('header--with-colors');
-	}
-
 	function headerTransparent() {
-		if ($(window).scrollTop() > offset && mainHeader.hasClass('header--transparent')) {
-			setNonTransparentHeader()
-			afterScroll = true
+		var offset = 200;
+
+		if( $(window).scrollTop() > offset && mainHeader.hasClass('header--transparent')) {
+			mainHeader.removeClass('header--transparent');
+			mainHeader.addClass('header--with-colors');
+
+		} else if ( $(window).scrollTop() <= offset && mainHeader.hasClass('header--with-colors')) {
+			mainHeader.addClass('header--transparent');
+			mainHeader.removeClass('header--with-colors');
 		}
-		else if ($(window).scrollTop() <= offset && mainHeader.hasClass('header--with-colors')) {
-			setTransparentHeader()
-			afterScroll = false
-		}
-	}
+   }
 
 
 	// Detect the screen size, and change the background for Post
@@ -75,9 +53,17 @@ $(document).ready(function () {
 	function callImages(dataAttr, dataAttrContent) {
 		for (var i = 0; i < dataAttr.length; i++) {
 			var url = dataAttr[i].getAttribute(dataAttrContent);
-			dataAttr[i].style.backgroundImage = 'url("' + url + '")';
+			dataAttr[i].style.backgroundImage='url("' + url + '")';
 		}
 	}
 
 	callImages(elementBackground, 'data-bg-image');
+
+
+	// Archives Delete Dialog
+	var archivesDialogClose = $('.archives-dialog__close');
+	
+	archivesDialogClose.click(function(){
+      $(this).parents('.archives-dialog').remove()
+   });
 });
