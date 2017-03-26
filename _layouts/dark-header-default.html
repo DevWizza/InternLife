@@ -62,19 +62,21 @@ layout: default
 		{% if page.previous.url %}
 
 		<div class="related-articles__prev">
-				<a href="">
+				<a href="{{page.previous.url}}">
 					<div class="related-articles__label">Previous Post</div>
 					<h3 class="related-articles__title">{{page.previous.title}}</h3>
 				</a>
 			</div>
 
 
-		{% endif %} {% if page.next.url %}
+		{% endif %} 
+		
+		{% if page.next.url %}
 
 		<div class="related-articles__next">
-				<a href="">
+				<a href="{{page.next.url}}">
 					<div class="related-articles__label">Next Post</div>
-					<h3 class="related-articles__title">{{page.previous.title}}</h3>
+					<h3 class="related-articles__title">{{page.next.title}}</h3>
 				</a>
 			</div>
 
@@ -89,7 +91,7 @@ layout: default
 			{% include disqus.html %}
 		</div>
 	</div>
-	
+
 </main>
 
 <span class="share-button">
