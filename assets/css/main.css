@@ -1202,7 +1202,8 @@ ul {
 .post__content img {
   border-radius: 4px;
   display: block;
-  width: 100%;
+  width: 30%;
+  margin: auto;
   margin-top: 64px;
   margin-bottom: 64px;
 }
