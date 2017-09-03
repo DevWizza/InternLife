@@ -13,6 +13,11 @@ tags:
     - name: prism
     - name: Setting-Up
 author_icon: https://avatars1.githubusercontent.com/u/5881238?v=3&s=460
+twitter: https://twitter.com/luispnez
+facebook: https://www.facebook.com/sodksmmsmmwpwpskd
+github: https://github.com/LuisAlbertoPenaNunez
+linkedin: https://www.linkedin.com/in/luis-alberto-pe%C3%B1a-nu%C3%B1ez-aa70a5103/
+instagram: https://www.instagram.com/luisapenanunez/
 ---
 
 ### Getting Started

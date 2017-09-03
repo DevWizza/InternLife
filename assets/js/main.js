@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 	function headerTransparent() {
 		var offset = 200;
-
+		
 		if( $(window).scrollTop() > offset && mainHeader.hasClass('header--transparent')) {
 			mainHeader.removeClass('header--transparent');
 			mainHeader.addClass('header--with-colors');
