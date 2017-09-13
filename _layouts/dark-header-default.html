@@ -9,15 +9,14 @@ layout: default
 
 	<!-- Menu -->
 	<nav class="menu">
-			<a class="menu__link" href="{{site.github.url}}/archives.html">View all archives</a>
 			<a class="menu__link" href="{{site.github.url}}/about.html">About Us</a>
 	</nav>
 
 	<span class="menu-trigger"><em></em></span>
 </header>
 
-<main class="content content--no-padding">
-	
+<main class="content content--no-padding content--white">
+	<div class="post">
 <header class="post__header" data-post-bg-mobile="{{ site.github.url | replace: 'http://', '//'}}{{page.post_preview_mobile}}"
         data-post-bg-desktop="{{ site.github.url | replace: 'http://', '//'}}{{page.post_preview_desktop}}">
 
@@ -36,8 +35,9 @@ layout: default
 	<div class="post">
 
     	<div class="post__content">
-				<p>{{page.description}}
-
+			<blockquote>	
+			<p>{{page.description}}
+			</blockquote>
         		{{content}}
     		</div>
 		</div>
@@ -48,9 +48,11 @@ layout: default
 			<p>{{page.author_comment}}</p>
 
 			<div class="author-info__social">
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-linkedin"></i></a>
-				<a href="#"><i class="fa fa-github"></i></a>
+				<a href="{{page.twitter}}"><i class="fa fa-twitter"></i></a>
+				<a href="{{page.linkedin}}"><i class="fa fa-linkedin"></i></a>
+				<a href="{{page.github}}"><i class="fa fa-github"></i></a>
+				<a href="{{page.instagram}}"><i class="fa fa-instagram"></i></a>
+				<a href="{{page.facebook}}"><i class="fa fa-facebook"></i></a>
 			</div>
 		</div>
 	</div>
@@ -88,14 +90,12 @@ layout: default
 
 	{% endif %}
 
-	<div class="author-info">
-		<div class="author-info__content">
+		<div class="comments-block">
 			{% include disqus.html %}
 		</div>
-	</div>
 
 </main>
-
+</div>
 <span class="share-button">
 		<button
 			class="share-button__link sharer"
