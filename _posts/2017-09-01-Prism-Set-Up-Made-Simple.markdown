@@ -169,10 +169,10 @@ And now to finish all these, we need to register these screens we created so we 
 
 Also note in the <b>line 17</b> we changed the first screen the app shows up when the app start running.
 
-So yeah, that's all for today amigos. Peace out!
-
 <a href="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-01-assets/Ran/NavigationSampleRunning.gif"><img  class="img--small" src="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-01-assets/Ran/NavigationSampleRunning.gif">
 </a>
+
+# The End
 
 You can download this sample from my GitHub repository. [https://github.com/DevWizza/Setting-Up-Prism](https://github.com/DevWizza/Setting-Up-Prism). 
 <br>
