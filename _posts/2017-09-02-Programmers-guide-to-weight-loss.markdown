@@ -20,19 +20,19 @@ linkedin: https://www.linkedin.com/in/luis-alberto-pe%C3%B1a-nu%C3%B1ez-aa70a510
 instagram: https://www.instagram.com/luisapenanunez/
 ---
 
-### It all started back in the 70s
+## It all started back in the 70s
 
 In the 1970s the president George McGovern commission concluded that high amounts of fat in the diet contributed to heart disease. Food companies and Americans responded by cutting fat in the products that were produced and the food that was eaten.
 
 But something very interesting happened... [SUGAR](https://www.youtube.com/watch?v=5S6-v37nOtY). Reduced fat meant reduced flavor, so the food industry substituted with [High Fructose Corn Syrup](http://drhyman.com/blog/2011/05/13/5-reasons-high-fructose-corn-syrup-will-kill-you/) for flavor. Americans consume an enormous amount of sugar sodas, energy drinks, various fruit drinks and fruit juices that are carb and sugar nightmares.
 
-### If sugar is that bad, why is it everywhere?
+## If sugar is that bad, why is it everywhere?
 
 The answer to that is I don't know... Even myself I don't understand how this got so out of control. This is a very political topic and there's so much money involved and not so much we can do beside educating ourself to take care of our health and not letting those big organizations ruin it without our consent.
 
 Many people aren't aware about the fact that the production of food high in sugar is actually cheaper for food processors, and the more sugar they add to their food the more addictive it is for the consumer, so it's a win-win for them.
 
-### Let's find the root cause
+## Let's find the root cause
 
 Many people assume that it's a matter of eating less and moving more and that you will lose a pound of fat per week if you substract 500 calories to your daily intake. But... that doesn't work that way!
 
@@ -40,7 +40,7 @@ Like everything else in life there's alway a root cause to pretty much anything 
 
 So let's go through each section and as you read all of this I want you to think about what happened or what did you do during that time you started gaining all the weight.
 
-### 1. Are you healthy?
+## 1. Are you healthy?
 
 To lose weight you need to be healthy first, I know it sounds contradictory to what everyone is saying but the reason why I say this is because being overweight is a symptom, not a disease as some people insist.
 
@@ -69,7 +69,7 @@ Stress is a huge factor in this and going through stress for a long period of ti
 
 My point here is that before blaming it all on the food we eat what we actually need to do is a step back and dig deeper to find what's really causing the weight gain because I know of people who have their diet on point yet they are still overweight because of stress.
 
-### 2. Do you focus solely on calories?
+## 2. Do you focus solely on calories?
 
 Focusing solely on calories has been the traditional way for losing weight fed to us by the media and these so called ["fitness experts"](https://www.everydayhealth.com/weight/how-to-achieve-one-pound-of-weight-loss.aspx).
 
@@ -83,7 +83,7 @@ Here is a book I found to be actually very helpful in which the author highly re
 
 For some people stopping the consumption of sugar overnight can be hard and I understand that because I was there too and it has to do with your body expecting sugar because it's what it's used to, one thing you can do to go past that phase very fast is replace those foods with pleasure foods that kinda mimic the taste of sugar. Here is a link with very good recipes you can try with your family! [Dr. Berg Low-Carb recipes.](https://www.drberg.com/blog/category/recipes)
 
-### 3. Do you eat frequently?
+## 3. Do you eat frequently?
 
 We've been told for a long time that eating small meals throughout the day can boost our metabolism thus increasing thermogenesis.  There are many studies disputing this notion. In 1997, the British Journal of Medicine did a thorough review of all such related studies, and found no evidence that eating 6 meals a day increases metabolism, thermogenesis, or weight loss.
 
@@ -95,7 +95,7 @@ Eating three meals a day and not snacking in between meals is a great step forwa
 
 Add healthy fats to your meals so you can go longer without eating and feeling hungry, the less dietary fat you eat the harder it will be for you to go longer without food.
 
-### 4. Are you consuming enough healthy fats?
+## 4. Are you consuming enough healthy fats?
 
 One of the reason why consuming fat can actually help you burn fat has to do with the fact that fat itself has the least impact on insulin. [Watch this TED video](https://www.youtube.com/watch?v=da1vvigy5tQ) for more information with this regard.
 
@@ -114,7 +114,7 @@ Here is an article explaining the importance of fat in our diets, and why going 
 
 So say no-no to <b>low-fat</b> products because <b>"low-fat"</b> is code word for <b>high in sugar</b>. And if you don't believe me, when you go to the store buy some low-fat product and read the back label where it says the sugar and you will be surprised.
 
-### 5. Are you consuming processed foods?
+## 5. Are you consuming processed foods?
 
 Processed foods are loaded with chemicals that can do more harm than good, and all they do is trick us into thinking that the food taste better when most of the time it actually doesn't.
 
@@ -137,7 +137,7 @@ And more importantly, processed food is most of the time just empty calories and
 
 What really puts the metabolism on fire is nutrient-dense foods, not just calories. Eating 1800 calories from vegetable will speed up your metabolism way more than eating 3000 empty calories from pasta.
 
-### Now putting science aside let's put all that information into practice!
+## Now putting science aside let's put all that information into practice!
 
 When my sister and I started our weight loss journey, we were lost by the vast amount of information available in internet. We didn't know what to do or who to follow for advice, until one day I remember coming across [this video](https://www.youtube.com/watch?v=lwCRjwDs1Ek&t=) where there's a Dr. explaining how Intermittent Fasting can be the ultimate tool for weight loss and health!
 
@@ -167,7 +167,7 @@ Also I want to point out that just because you can get away with certain type of
 
 Sure, I will use myself as an example and here is how my days are usually laid out:
 
-### ==============================
+## ==============================
 
 <b>Morning</b>
 
@@ -177,7 +177,7 @@ Sure, I will use myself as an example and here is how my days are usually laid o
 
 <b>9:00 AM.</b> I eat my first meal consisting of lots of [cruciferous vegetable](https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/cruciferous-vegetables-fact-sheet), complete protein such as boiled eggs and healthy fats e.g avocado or nuts. Probably about 1200 calories in one sitting.
 
-### ==============================
+## ==============================
 
 <b>Afternoon</b>
 
@@ -185,13 +185,13 @@ Sure, I will use myself as an example and here is how my days are usually laid o
 
 And then after that I don't eat anything until the next day. No snacks, no 5 calories food, no 2 calories gum. Absolutely nothing, just plain water.
 
-### ==============================
+## ==============================
 
 <b>Evening</b>
 
 I make oxygen my snack during these hours.
 
-### ==============================
+## ==============================
 
 That's pretty much the schedule I follow every single day even in the weekends, and by the way the reason why I eat my first meal in the morning is because I find it easier to implement Intermittent Fasting that way, for some people they perform better eating their first meal in the afternoon or even at night which is weird in my opinion.
 
@@ -207,27 +207,6 @@ So to summarize everything I've said:
 8. Reduce stress.
 9. Intermittent Fasting is the best way to shred fat easily without having to count calories.
 10. Include more healthy fats in your diet.
-
-Here are some before and after pictures of me and my sister after going Low Sugar and Intermittent Fasting. :)
-
-### Success Stories
-
-### My sister
-
-<b>She started with 160 pounds</b>
-<a href="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/sister-before.jpeg"> <img class="img--small" src="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/sister-before.jpeg"></a>
-
-<a href="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/sister-after.jpeg"> <img class="img--small" src="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/sister-after.jpeg"></a>
-<b>And after 3 months of Low Sugar and Intermittent Fasting she went down to 135 pounds!!</b>
-
-### Me
-
-<b>I started with 180 pounds. I'm the guy on the left, the guy on the right is [James Montemagno](https://github.com/jamesmontemagno)</b>
-<a href="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/me-before.jpg"> <img class="img--small" src="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/me-before.jpg"></a>
-
-<a href="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/me-after.jpg"> <img class="img--small" src="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/me-after.jpg"></a>
-
-<b>And after two months of Intermittent Fasting and Low sugar I went down to 150 pounds and still counting and you can see how my face got thinner.</b>
 
 <br>
 # The End
