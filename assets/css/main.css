@@ -1270,6 +1270,12 @@ blockquote p:last-child {
   margin-left: auto;
 }
 
+.post__content img.img--small-2x {
+  max-width: 600px;
+  margin-right: auto; 
+  margin-left: auto;
+}
+
 @media (min-width: 768px) {
   .post__header {
     padding-bottom: 78px;
