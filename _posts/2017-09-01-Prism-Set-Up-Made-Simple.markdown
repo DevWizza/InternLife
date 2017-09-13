@@ -11,7 +11,7 @@ post_preview_mobile: "/assets/img/2017-09-01-assets/background.jpg"
 tags:
     - name: xamarin-forms
     - name: prism
-    - name: Setting-Up
+    - name: set-up
 author_icon: https://avatars1.githubusercontent.com/u/5881238?v=3&s=460
 twitter: https://twitter.com/luispnez
 facebook: https://www.facebook.com/sodksmmsmmwpwpskd
