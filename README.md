@@ -10,7 +10,6 @@ Intern Life is the blog where programmers share their knowledge, learn from othe
 - [Installation](#installation)
     - [Dependencies](#dependencies)
     - [Running](#running)
-- [Structure](#structure)
 - [Preview](#preview)
 - [Contributing](#contributing)
 - [Licenses](#licenses)
@@ -42,10 +41,6 @@ In order to run the project execute the following in the terminal
 ```
 bundle exec jekyll serve
 ```
-
-# Structure
-
-[Coming soon...]
 
 ## Contributing
 
