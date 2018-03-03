@@ -124,6 +124,10 @@ img {
   border-style: none;
 }
 
+video {
+  border-style: none;
+}
+
 svg:not(:root) {
   overflow: hidden;
 }
@@ -1053,6 +1057,12 @@ blockquote p:last-child {
   width: 100%;
 }
 
+.article__image video {
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+}
+
 .article__title {
   margin-top: 26px;
   margin-bottom: 16px;
@@ -1251,6 +1261,14 @@ blockquote p:last-child {
 }
 
 .post__content img {
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.post__content video {
   border-radius: 4px;
   display: block;
   width: 100%;
