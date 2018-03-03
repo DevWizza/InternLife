@@ -77,6 +77,6 @@ Let's say you are in the home screen scrolling through a list of movies and then
 
 # The End
 
-There’s a lot to cover regarding this new update but instead of making a huge massive post, we are gonna do one at a time instead, hope you enjoyed it and don’t forget to share with other developers if you found the article useful.
+There’s a lot to cover regarding this new update but instead of making a huge massive post, we are gonna do one at a time instead. We hope you enjoyed it and don’t forget to share with other developers if you found the article useful.
 
 Check out the project on Github . <a href="https://github.com/DevWizza/Movies">https://github.com/DevWizza/Movies</a>
