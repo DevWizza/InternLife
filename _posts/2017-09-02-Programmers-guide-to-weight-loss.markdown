@@ -208,27 +208,6 @@ So to summarize everything I've said:
 9. Intermittent Fasting is the best way to shred fat easily without having to count calories.
 10. Include more healthy fats in your diet.
 
-Here are some before and after pictures of me and my sister after going Low Sugar and Intermittent Fasting. :)
-
-## Success Stories
-
-## My sister
-
-<b>She started with 160 pounds</b>
-<a href="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/sister-before.jpeg"> <img class="img--small" src="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/sister-before.jpeg"></a>
-
-<a href="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/sister-after.jpeg"> <img class="img--small" src="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/sister-after.jpeg"></a>
-<b>And after 3 months of Low Sugar and Intermittent Fasting she went down to 135 pounds!!</b>
-
-## Me
-
-<b>I started with 180 pounds. I'm the guy on the left, the guy on the right is [James Montemagno](https://github.com/jamesmontemagno)</b>
-<a href="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/me-before.jpg"> <img class="img--small" src="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/me-before.jpg"></a>
-
-<a href="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/me-after.jpg"> <img class="img--small" src="{{ site.github.url | replace: 'http://', '//' }}/assets/img/2017-09-02-assets/me-after.jpg"></a>
-
-<b>And after two months of Intermittent Fasting and Low sugar I went down to 150 pounds and still counting and you can see how my face got thinner.</b>
-
 <br>
 # The End
 Intermittent Fasting and Low Sugar is actually one of the best thing you can do for your health. As to Intermittent Fasting the more you do smaller eating windows the easier will be over time so don't give up, and don't forget to post your success story in Twitter and tag us if you ever think of giving this a shot, I'm pretty sure you will have great results.
